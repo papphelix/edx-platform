@@ -56,6 +56,7 @@ COMPONENT_TYPES = [
     'html',
     'video',
     'problem',
+    'game',
     'itembank',
     'library_v2',  # Not an XBlock
     'library',

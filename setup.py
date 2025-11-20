@@ -17,6 +17,7 @@ XBLOCKS = [
     "discuss = xmodule.template_block:TranslateCustomTagBlock",
     "discussion = xmodule.discussion_block:DiscussionXBlock",
     "error = xmodule.error_block:ErrorBlock",
+    "game = xmodule.game_block:GameBlock",
     "hidden = xmodule.hidden_block:HiddenBlock",
     "html = xmodule.html_block:HtmlBlock",
     "itembank = xmodule.item_bank_block:ItemBankBlock",

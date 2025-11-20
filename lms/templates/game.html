@@ -1,0 +1,12 @@
+<%page expression_filter="h"/>
+
+<div class="game-xblock">
+    % if game_type:
+        <div class="game-type-header">
+            <strong>${game_type.capitalize()}</strong>
+        </div>
+    % endif
+    <div class="game-content">
+        ${data | n}
+    </div>
+</div>
